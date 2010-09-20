@@ -13,3 +13,6 @@ A jQuery templating plugin - created for demonstration purposes.
 
     // Appends multiple LI, filled with data, into the UL
     $("ul").append( tmpl, arrayOfDataObjects );
+
+    // use functions within template
+    var mytemplate = ''
