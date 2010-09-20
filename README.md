@@ -15,4 +15,4 @@ A jQuery templating plugin - created for demonstration purposes.
     $("ul").append( tmpl, arrayOfDataObjects );
 
     // use functions within template
-    var mytemplate = ''
+    var mytemplate = '<li>{{if true}}yes{{/if}}</li>'
