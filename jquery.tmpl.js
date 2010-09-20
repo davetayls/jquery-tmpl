@@ -88,7 +88,7 @@
 			},
 			"=": {
 				_default: [ "this" ],
-				prefix: "_.push($.encode(typeof $1==='function'?$1.call(this):$1));"
+				prefix: "_.push($.encode(typeof $1==='function'?$1.call(this,$i):$1));"
 			}
 		},
 
